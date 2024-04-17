@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d9bf3272.css",
+    "main.js": "/static/js/main.393947f5.js",
+    "static/js/453.253ccfac.chunk.js": "/static/js/453.253ccfac.chunk.js",
+    "static/media/myImage-removebg.png": "/static/media/myImage-removebg.6e41b12d6e227b8ea445.png",
+    "static/media/Transparent_profile_pic.png": "/static/media/Transparent_profile_pic.f002aede29c8ca8905ca.png",
+    "static/media/hata-photo.jpg": "/static/media/hata-photo.2ce45299b450b0c835fb.jpg",
+    "index.html": "/index.html",
+    "main.d9bf3272.css.map": "/static/css/main.d9bf3272.css.map",
+    "main.393947f5.js.map": "/static/js/main.393947f5.js.map",
+    "453.253ccfac.chunk.js.map": "/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9bf3272.css",
+    "static/js/main.393947f5.js"
+  ]
+}
