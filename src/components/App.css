@@ -1,0 +1,32 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #212428;
+    color: #f3f4f4;
+}
+
+.background-card,
+.display-pic-bg {
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    color: rgb(135, 142, 153);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out; /* Added transition properties for background and color */
+}
+
+.background-card:hover {
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    color: #f3f4f4;
+}
+
+.background-card:not(:hover) {
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    color: rgb(135, 142, 153);
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}

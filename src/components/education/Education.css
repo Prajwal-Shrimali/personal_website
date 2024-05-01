@@ -1,0 +1,49 @@
+.education-title {    color: #FF014F;
+    font-size: 4rem;
+    transition: color 0.3s ease;
+    text-align: center;
+    font-weight: 600;
+}
+
+.education-title:hover {
+    color: #C4CFDE;
+    transition: color 0.5s ease-in-out;
+}
+
+.education-title:not(:hover) {
+    color: #FF014F;
+    transition: color 0s ease;
+}
+
+#education {
+    justify-content: center;
+    padding: 7.5% 7.5% 2%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10%;
+}
+
+.education-switch button {
+    padding: 2%;
+    
+}
+
+#education-button-1,
+#education-button-2 {
+    width: 50%;
+    color: #f3f4f4;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+#education-button-1:hover,
+#education-button-2:hover,
+.active {
+    color: #FF014F;
+    background: linear-gradient(to right bottom, #212428, #16181c);
+}
+
+#education-button-1:not(:hover),
+#education-button-2:not(:hover) {
+    color: #f3f4f4;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+}

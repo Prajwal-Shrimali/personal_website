@@ -1,0 +1,80 @@
+.circularImage{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+    border: #2E3237 solid 2px;
+}
+
+.logoContainer h1 {
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+/* .navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px 10px;
+    background-color: #212428;
+    color: #f3f4f4;
+} */
+
+.navbarContainer {
+    transition: background-color 0.3s ease; /* Add transition for smooth color change */
+    background-color: #212428;
+    color: #f3f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navbarContainer.scrolled {
+    background-color: #212428; /* Change background color when scrolled */
+    backdrop-filter: blur(10px);
+}
+
+.logoContainer,
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    padding: 0 10px 0 0;
+}
+
+.navbar li {
+    padding: 20px;
+}
+
+.navbar li a {
+    color: #808692;
+    text-decoration: none;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: #f3f4f4;
+}
+
+@media screen and (min-width: 768px) {
+    
+}
